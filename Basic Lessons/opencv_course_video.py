@@ -15,3 +15,6 @@ while ret:
     if ret:
         cv2.imshow('frame', frame)
         cv2.waitKey(23)
+
+video.release()
+cv2.destroyAllWindows()
